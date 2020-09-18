@@ -1,0 +1,51 @@
+.about
+{
+	
+}
+
+h1, h2, p, li, ul
+{
+	font-family: "Tahoma", Geneva, sans-serif;
+	color: #16324f;
+	padding: 10px;:
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box; 
+}
+
+li
+{
+	padding: 2px;
+}
+
+#Member
+{
+	display: inline;
+	padding: 8px;
+	margin: 5px;
+	background-color: #dddddd;
+}
+
+#Toolbar
+{
+	padding: 16px 18px;
+	overflow: hidden;
+	background-color: #16324f;
+	text-align: center;
+	text-decoration: none;	
+}
+
+
+li a:hover{
+	background-color: #FFFFFF;
+}
+
+.list
+{
+	display: normal;
+	margin: 0px 0px;
+}
+/* https://coolors.co/3e92cc-2a628f-13293d-16324f-18435 */
