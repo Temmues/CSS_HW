@@ -1,6 +1,6 @@
 .about
 {
-	
+
 }
 
 h1, h2, p, li, ul
@@ -10,10 +10,64 @@ h1, h2, p, li, ul
 	padding: 10px;:
 }
 
+h1
+{
+  display: flex;
+  justify-content: center;
+}
+.page{
+  display: flex;
+  justify-content: space-between;
+  height: 70%;
+  flex-direction: row;
+  background-color: #D6E9FE;
+  align-items: baseline;
+}
+
+
+@media only screen and (max-width: 400px) {
+   .footer
+   {
+     flex-direction: column;
+   }
+}
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  .page
+  .footer
+  {
+    width: 50%;
+  }
+  .page
+  {
+    flex-direction: column;
+  }
+}
+
+
+.footer{
+  display: flex;
+  flex-direction: row;
+  height: 30%;
+  justify-content: space-around;
+  background-color: #16324f;
+}
+
+.block{
+  padding-top: 5px;
+}
+
+.square{
+  width: 31%;
+  margin: 20px 1.15%;
+  height: 150px;
+  background-color: #B2D6FF;
+}
+
 *{
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box; 
+	box-sizing: border-box;
 }
 
 li
@@ -35,8 +89,9 @@ li
 	overflow: hidden;
 	background-color: #16324f;
 	text-align: center;
-	text-decoration: none;	
+	text-decoration: none;
 }
+
 
 
 li a:hover{
@@ -48,4 +103,5 @@ li a:hover{
 	display: normal;
 	margin: 0px 0px;
 }
+
 /* https://coolors.co/3e92cc-2a628f-13293d-16324f-18435 */
